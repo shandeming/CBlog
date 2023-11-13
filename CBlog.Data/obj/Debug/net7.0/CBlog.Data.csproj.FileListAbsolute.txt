@@ -1,0 +1,14 @@
+D:\Projects\CBlog\CBlog.Data\bin\Debug\net7.0\CBlog.Data.deps.json
+D:\Projects\CBlog\CBlog.Data\bin\Debug\net7.0\CBlog.Data.runtimeconfig.json
+D:\Projects\CBlog\CBlog.Data\bin\Debug\net7.0\CBlog.Data.dll
+D:\Projects\CBlog\CBlog.Data\bin\Debug\net7.0\CBlog.Data.pdb
+D:\Projects\CBlog\CBlog.Data\obj\Debug\net7.0\CBlog.Data.csproj.AssemblyReference.cache
+D:\Projects\CBlog\CBlog.Data\obj\Debug\net7.0\CBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CBlog\CBlog.Data\obj\Debug\net7.0\CBlog.Data.AssemblyInfoInputs.cache
+D:\Projects\CBlog\CBlog.Data\obj\Debug\net7.0\CBlog.Data.AssemblyInfo.cs
+D:\Projects\CBlog\CBlog.Data\obj\Debug\net7.0\CBlog.Data.csproj.CoreCompileInputs.cache
+D:\Projects\CBlog\CBlog.Data\obj\Debug\net7.0\CBlog.Data.dll
+D:\Projects\CBlog\CBlog.Data\obj\Debug\net7.0\refint\CBlog.Data.dll
+D:\Projects\CBlog\CBlog.Data\obj\Debug\net7.0\CBlog.Data.pdb
+D:\Projects\CBlog\CBlog.Data\obj\Debug\net7.0\CBlog.Data.genruntimeconfig.cache
+D:\Projects\CBlog\CBlog.Data\obj\Debug\net7.0\ref\CBlog.Data.dll
