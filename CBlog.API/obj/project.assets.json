@@ -671,6 +671,19 @@
         "runtime": {
           "bin/placeholder/CBlog.Data.dll": {}
         }
+      },
+      "CBlog.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CBlog.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CBlog.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CBlog.Service.dll": {}
+        }
       }
     }
   },
@@ -1731,11 +1744,17 @@
       "type": "project",
       "path": "../CBlog.Data/CBlog.Data.csproj",
       "msbuildProject": "../CBlog.Data/CBlog.Data.csproj"
+    },
+    "CBlog.Service/1.0.0": {
+      "type": "project",
+      "path": "../CBlog.Service/CBlog.Service.csproj",
+      "msbuildProject": "../CBlog.Service/CBlog.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "CBlog.Data >= 1.0.0",
+      "CBlog.Service >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.13",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -1778,6 +1797,9 @@
           "projectReferences": {
             "D:\\Projects\\CBlog\\CBlog.Data\\CBlog.Data.csproj": {
               "projectPath": "D:\\Projects\\CBlog\\CBlog.Data\\CBlog.Data.csproj"
+            },
+            "D:\\Projects\\CBlog\\CBlog.Service\\CBlog.Service.csproj": {
+              "projectPath": "D:\\Projects\\CBlog\\CBlog.Service\\CBlog.Service.csproj"
             }
           }
         }

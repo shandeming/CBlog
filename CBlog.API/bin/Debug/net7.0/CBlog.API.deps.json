@@ -9,6 +9,7 @@
       "CBlog.API/1.0.0": {
         "dependencies": {
           "CBlog.Data": "1.0.0",
+          "CBlog.Service": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.9",
           "Microsoft.EntityFrameworkCore.Design": "7.0.13",
           "Swashbuckle.AspNetCore": "6.5.0"
@@ -403,6 +404,14 @@
         "runtime": {
           "CBlog.Data.dll": {}
         }
+      },
+      "CBlog.Service/1.0.0": {
+        "dependencies": {
+          "CBlog.Data": "1.0.0"
+        },
+        "runtime": {
+          "CBlog.Service.dll": {}
+        }
       }
     }
   },
@@ -658,6 +667,11 @@
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
     },
     "CBlog.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CBlog.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

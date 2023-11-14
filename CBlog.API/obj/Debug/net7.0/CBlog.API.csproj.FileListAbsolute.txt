@@ -69,3 +69,5 @@ D:\Projects\CBlog\CBlog.API\bin\Debug\net7.0\Humanizer.dll
 D:\Projects\CBlog\CBlog.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Projects\CBlog\CBlog.API\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\Projects\CBlog\CBlog.API\bin\Debug\net7.0\System.CodeDom.dll
+D:\Projects\CBlog\CBlog.API\bin\Debug\net7.0\CBlog.Service.dll
+D:\Projects\CBlog\CBlog.API\bin\Debug\net7.0\CBlog.Service.pdb

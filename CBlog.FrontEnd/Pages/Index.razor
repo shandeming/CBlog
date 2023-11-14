@@ -1,9 +1,96 @@
 ﻿@page "/"
+@using CBlog.Data.Model
+@using System.Text.Json
+@inject NavigationManager NavigationManager
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px; /* 添加表格与其他元素之间的底部间距 */
+    }
 
+    th, td {
+        border: 1px solid #dddddd; /* 添加单元格边框 */
+        text-align: left;
+        padding: 8px; /* 添加单元格内边距 */
+    }
+
+    th {
+        background-color: #f2f2f2; /* 添加表头背景色 */
+    }
+    
+    .title-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .btn {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+</style>
 <PageTitle>Index</PageTitle>
+<cotainer class="title-container">
+    <h1>Welcome to my blog.</h1>
+    <button class="btn" @onclick="RedirectToPage">New Post</button>
+</cotainer>
+@if (_posts != null)
+{
+    <table>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Detail</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in _posts)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Title</td>
+                <td>@item.Category</td>
+                <td>
+                    <a href="http://localhost:8080">@item.Detail</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>loading...</p>
+}
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?"/>
+
+@code{
+    private List<Post> _posts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        using (HttpClient client = new HttpClient())
+        {
+            string response = await client.GetStringAsync("https://localhost:44366/Post");
+            _posts = JsonSerializer.Deserialize<List<Post>>(response);
+    // StateHasChanged();
+        }
+    }
+    private void RedirectToPage()
+    {
+        NavigationManager.NavigateTo("/Post/Create");
+    }
+
+
+}

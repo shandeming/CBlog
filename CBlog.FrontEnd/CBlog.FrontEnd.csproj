@@ -6,4 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CBlog.Data\CBlog.Data.csproj" />
+    </ItemGroup>
+
 </Project>

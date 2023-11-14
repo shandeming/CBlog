@@ -1,0 +1,15 @@
+D:\Projects\CBlog\CBlog.Service\bin\Debug\net7.0\CBlog.Service.deps.json
+D:\Projects\CBlog\CBlog.Service\bin\Debug\net7.0\CBlog.Service.dll
+D:\Projects\CBlog\CBlog.Service\bin\Debug\net7.0\CBlog.Service.pdb
+D:\Projects\CBlog\CBlog.Service\bin\Debug\net7.0\CBlog.Data.dll
+D:\Projects\CBlog\CBlog.Service\bin\Debug\net7.0\CBlog.Data.pdb
+D:\Projects\CBlog\CBlog.Service\obj\Debug\net7.0\CBlog.Service.csproj.AssemblyReference.cache
+D:\Projects\CBlog\CBlog.Service\obj\Debug\net7.0\CBlog.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CBlog\CBlog.Service\obj\Debug\net7.0\CBlog.Service.AssemblyInfoInputs.cache
+D:\Projects\CBlog\CBlog.Service\obj\Debug\net7.0\CBlog.Service.AssemblyInfo.cs
+D:\Projects\CBlog\CBlog.Service\obj\Debug\net7.0\CBlog.Service.csproj.CoreCompileInputs.cache
+D:\Projects\CBlog\CBlog.Service\obj\Debug\net7.0\CBlog.Service.csproj.CopyComplete
+D:\Projects\CBlog\CBlog.Service\obj\Debug\net7.0\CBlog.Service.dll
+D:\Projects\CBlog\CBlog.Service\obj\Debug\net7.0\refint\CBlog.Service.dll
+D:\Projects\CBlog\CBlog.Service\obj\Debug\net7.0\CBlog.Service.pdb
+D:\Projects\CBlog\CBlog.Service\obj\Debug\net7.0\ref\CBlog.Service.dll
